@@ -286,6 +286,8 @@ class _BMIScreenState extends State<BMIScreen> {
             const SizedBox(height: 35),
 
             if (bmi != null) _buildResultCard(),
+
+            Text("This iS BMI Calculator"),
           ],
         ),
       ),
